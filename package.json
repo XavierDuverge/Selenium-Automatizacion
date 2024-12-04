@@ -1,0 +1,21 @@
+{
+  "name": "selenium-p3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./Pruebas/*.spec.js --reporter mochawesome --reporter-options reportDir=reportes,reportFilename=resultado"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "selenium-webdriver": "^4.26.0",
+    "webdriver-manager": "^12.1.9"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.32.0",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3"
+  }
+}
